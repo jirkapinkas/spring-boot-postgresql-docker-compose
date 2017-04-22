@@ -6,7 +6,7 @@
 
 ## 2. Run docker-compose
 
-`cd src/main/docker/`
+`cd src/main/docker`
 
 `docker-compose up`
 

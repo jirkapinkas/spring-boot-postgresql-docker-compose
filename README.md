@@ -4,6 +4,10 @@
 
 `mvn clean install`
 
+OR:
+
+`docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven -v /var/run/:/var/run/ maven mvn clean install`
+
 ## 2. Run docker-compose
 
 `cd src/main/docker`
